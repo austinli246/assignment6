@@ -48,11 +48,12 @@ class Zip extends React.Component {
                 </form> 
 
                 <br></br>
-                <div className = "container">
+                <div id = "text">
 
             
                 {this.state.items.map((item) => (
                         <li key={item.RecordNumber}>
+                           
                           <p1>{item.City}</p1> 
                           <p>State: {item.State}</p>
                           <p>Location:({item.Long},{item.Lat})</p>

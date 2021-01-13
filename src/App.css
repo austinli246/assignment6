@@ -7,3 +7,6 @@ li{
 p1{
     font-size: 1.5rem
 }
+#text li{
+    list-style-type:none;
+}
