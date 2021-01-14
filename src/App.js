@@ -1,7 +1,7 @@
 import React from "react"
 import Zip from "./components/zip"
 import './App.css';
-import Display from './components/display'
+import City from './components/city'
 
 class App extends React.Component {
   
@@ -11,6 +11,7 @@ class App extends React.Component {
     
     this.state = {
       
+      
     };
   }
 
@@ -19,7 +20,8 @@ class App extends React.Component {
     return (
     <div>
 
-      <Zip/>
+      <Zip/> 
+      <City/>
      
     </div>
      

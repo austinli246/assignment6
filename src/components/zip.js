@@ -6,7 +6,6 @@ class Zip extends React.Component {
     super();
     this.state = {
         zipCode: " ",
-        found : false,
         items : []
     };
      this.handleChange = this.handleChange.bind(this);
@@ -48,13 +47,15 @@ class Zip extends React.Component {
                 </form> 
 
                 <br></br>
+
                 <div id = "text">
+
 
             
                 {this.state.items.map((item) => (
                         <li key={item.RecordNumber}>
                            
-                          <p1>{item.City}</p1> 
+                          <h1>{item.City}</h1> 
                           <p>State: {item.State}</p>
                           <p>Location:({item.Long},{item.Lat})</p>
                           <p>Population: {item.EstimatedPopulation}</p> 

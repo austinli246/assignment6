@@ -1,5 +1,6 @@
 li{
     font-size : 1rem
+    
 }
 .container{
     margin-top: 40px
@@ -9,4 +10,8 @@ p1{
 }
 #text li{
     list-style-type:none;
+  
+}
+body{
+    background-color: lightgray;
 }
